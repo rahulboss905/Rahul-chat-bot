@@ -25,6 +25,6 @@ def home():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     bot.remove_webhook()
-    bot.set_webhook(url=f"https://rahul-chat-bot.onrender.com/<your-actual-bot-token>")
+    bot.set_webhook(url=f"https://rahul-chat-bot.onrender.com/7902308716:AAG1FBzEafazIDVO_xRc5fTsXEU4PqUcO9k")
     app.run(host="0.0.0.0", port=port)
   
