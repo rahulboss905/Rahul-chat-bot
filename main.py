@@ -168,8 +168,8 @@ async def stats_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if update.effective_user.id != OWNER_ID:
         return
     s = stats()
-    await update.message.reply_text(f"ðŸ“Š Users: {s['users']}
-Groups: {s['groups']}")
+    await update.message.reply_text(f"📊 Users: {s['users']}\nGroups: {s['groups']}")
+
 
 async def forward_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat = update.message.chat
