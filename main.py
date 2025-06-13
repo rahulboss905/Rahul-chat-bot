@@ -221,6 +221,6 @@ def index():
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
-    webhook_url = f"https://rahul-chat-bot.onrender.com/{BOT_TOKEN}"
+    webhook_url = f"https://rahul-chat-bot.onrender.com/7902308716:AAG1FBzEafazIDVO_xRc5fTsXEU4PqUcO9k"
     asyncio.run(application.bot.set_webhook(url=webhook_url))
     app.run(host="0.0.0.0", port=port)
